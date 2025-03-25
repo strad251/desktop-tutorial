@@ -1,0 +1,58 @@
+/**
+  |============================
+  | Section Hero
+  |============================
+*/
+
+.hero {
+    max-width: 1600px;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 200px 0;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/section-hero.jpg);
+
+    background-color: $dark-text-color;
+}
+
+.hero-title {
+    width: 696px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+    color: $main-white-color;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.btn {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: $main-white-color;
+    background-color: $accent-color;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
+    border: none;
+}
+
+.btn--main {
+    padding: 10px 32px;
+    margin: auto;
+
+    &:hover,
+    &:focus {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+}

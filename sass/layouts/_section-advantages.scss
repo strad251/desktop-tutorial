@@ -1,0 +1,34 @@
+/**
+  |============================
+  | Section advantages
+  |============================
+*/
+
+.advantage__title {
+    margin-bottom: 10px;
+    color: $dark-text-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.advantages-list {
+    align-items: baseline;
+}
+.advantage__text {
+    line-height: 1.71;
+}
+
+.advantage__icon-wrap {
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: $secondary-white-color;
+    border-radius: 4px;
+}
+
+.advantage__icon {
+    width: 70px;
+    height: 70px;
+}
